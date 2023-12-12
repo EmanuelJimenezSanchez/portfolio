@@ -11,12 +11,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   if (mail('emanuel.jimenez9123@alumnos.udg.mx', $subject, $message)) {
     echo '<script type="text/javascript">
     alert("Mensaje enviado correctamente");
-    window.location.href="index.php";
     </script>';
   } else {
     echo '<script type="text/javascript">
     alert("Error al enviar el mensaje");
-    window.location.href="index.php";
     </script>';
   }
 }
