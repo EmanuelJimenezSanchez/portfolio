@@ -8,7 +8,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     Email: " . $email . "<br>
     Mensaje: " . $_POST['message'];
 
-  if (mail('emanuel.jimenez9123@alumnos.udg.mx', $subject, $message)) {
+  if (mail('emanuel15300135@gmail.com', $subject, $message)) {
     echo '<script type="text/javascript">
     alert("Mensaje enviado correctamente");
     </script>';
