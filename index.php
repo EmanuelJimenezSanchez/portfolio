@@ -282,7 +282,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
-    <form action="#">
+    <form method="POST">
       <div class="input-box">
         <input type="text" placeholder="Full Name" name="name">
         <input type="email" placeholder="Email Address" name="email">
