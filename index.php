@@ -99,9 +99,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <!-- <a href="metamorfosissaludybelleza@gmail.com"><i class='bx bxl-gmail'></i></a> -->
         <a href="https://wa.link/wpcccv"><i class='bx bxl-whatsapp'></i></a>
         <a href="https://www.linkedin.com/in/emanuel-jimenez-sanchez-a0b905226/"><i class='bx bxl-linkedin'></i></a>
+        <a href="mailto:emanuel.jimenez9123@alumnos.udg.mx"><i class='bx bxl-gmail'></i></a>
       </div>
 
-      <a href="/src/CV Emanuel Jiménez Sánchez_2.pdf" class="btn">Download CV</a>
+      <a href="/src/Emanuel_JiménezSánchez_CV_3.pdf" class="btn">Download CV</a>
     </div>
 
     <div class="profession-container">
@@ -294,7 +295,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
   </div>
 
   <!-- contact section design -->
-  <section class="contact" id="contact">
+  <!-- <section class="contact" id="contact">
     <h2 class="heading">Contact <span>Me!</span></h2>
 
     <form method="POST">
@@ -309,7 +310,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" name="message"></textarea>
       <input type="submit" value="Send Message" class="btn">
     </form>
-  </section>
+  </section> -->
 
   <!-- footer design -->
   <footer class="footer">
