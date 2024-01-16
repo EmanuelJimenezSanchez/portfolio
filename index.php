@@ -1,14 +1,31 @@
 <?php
 if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-  $name = $_POST['name'];
-  $email = $_POST['email'];
-  $subject = $_POST['subject'];
-  $phone = $_POST['phone'];
-  $message = "Nombre: " . $name . "<br>
-    Email: " . $email . "<br>
-    Mensaje: " . $_POST['message'];
+  // $name = $_POST['name'];
+  // $email = $_POST['email'];
+  // $subject = $_POST['subject'];
+  // $phone = $_POST['phone'];
+  // $message = "Nombre: " . $name . "<br>
+  //   Email: " . $email . "<br>
+  //   Mensaje: " . $_POST['message'];
 
-  if (mail('emanuel15300135@gmail.com', $subject, $message)) {
+  // if (mail('emanuel15300135@gmail.com', $subject, $message)) {
+  //   echo '<script type="text/javascript">
+  //   alert("Mensaje enviado correctamente");
+  //   </script>';
+  // } else {
+  //   echo '<script type="text/javascript">
+  //   alert("Error al enviar el mensaje");
+  //   </script>';
+  // }
+
+  include 'path/to/mailin-api/Mailin.php';
+  $mailin = new Mailin('emanuel15300135@gmail.com', 'vcdk1TshMOxHyCXG');
+  $mailin->addTo('emanuel15300135@gmail.com', 'Emanuel Jimenez')->setFrom('emanuel15300135@gmail.com', 'Emanuel Jimenez')->setReplyTo('emanuel15300135@gmail.com', 'Emanuel Jimenez')->setSubject('Escriba el asunto aquí')->setText('Hola')->setHtml('<strong>Hola</strong>');
+  $res = $mailin->send();
+
+  // // El mensaje de éxito será enviado de esta forma:
+  // {'result' => true, 'message' => 'E-mail enviado'}
+  if ($res['result'] === true) {
     echo '<script type="text/javascript">
     alert("Mensaje enviado correctamente");
     </script>';
