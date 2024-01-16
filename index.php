@@ -192,6 +192,16 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
     <div class="portfolio-container">
       <div class="portfolio-box">
+        <img src="images/portfolio3.jpg" alt="">
+
+        <div class="portfolio-layer">
+          <h4>DevWebCamp</h4>
+          <p>Page for an event with multiple conferences and various types of registrations including authentication, online payments, and event registrations.</p>
+          <a href="https://emanuel-devwebcamp.domcloud.dev"><i class='bx bx-link-external'></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
         <img src="images/portfolio1.jpg" alt="">
 
         <div class="portfolio-layer">
@@ -200,6 +210,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <a href="https://uptask-emanuel.domcloud.dev"><i class='bx bx-link-external'></i></a>
         </div>
       </div>
+
       <div class="portfolio-box">
         <img src="images/portfolio2.jpg" alt="">
 
@@ -209,16 +220,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <a href="https://appsalon-emanuel.domcloud.dev"><i class='bx bx-link-external'></i></a>
         </div>
       </div>
-      <div class="portfolio-box">
-        <img src="images/portfolio3.jpg" alt="">
 
-        <div class="portfolio-layer">
-          <h4>Web Design</h4>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
-          <a href="#"><i class='bx bx-link-external'></i></a>
-        </div>
-      </div>
-      <div class="portfolio-box">
+      <!-- <div class="portfolio-box">
         <img src="images/portfolio4.jpg" alt="">
 
         <div class="portfolio-layer">
@@ -244,12 +247,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique, ipsam est.</p>
           <a href="#"><i class='bx bx-link-external'></i></a>
         </div>
-      </div>
+      </div> -->
     </div>
   </section>
 
   <!-- testimonial design -->
-  <div class="testimonial-container">
+  <!-- <div class="testimonial-container">
     <h2 class="heading">Valuable <span>Testimonial</span></h2>
 
     <div class="testimonial-wrapper">
@@ -292,7 +295,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         <div class="swiper-pagination"></div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- contact section design -->
   <!-- <section class="contact" id="contact">
